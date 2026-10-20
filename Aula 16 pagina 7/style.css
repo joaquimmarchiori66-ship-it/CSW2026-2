@@ -1,0 +1,42 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+
+.container {
+  display: flex;
+  
+ 
+  flex-wrap: wrap; 
+  
+ 
+  align-content: space-between; 
+  
+
+  justify-content: space-between; 
+  
+  background-color: #006eff; 
+  width: 100%;
+  max-width: 900px;             
+  height: 550px;           
+  padding: 20px;
+  border-radius: 12px;
+  margin: 0 auto;
+}
+
+/* Estilo das caixas maiores */
+.caixa {
+  background-color: #00ff80; 
+  color: rgb(0, 0, 0);
+  width: 260px;             
+  height: 80px;              
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+}
