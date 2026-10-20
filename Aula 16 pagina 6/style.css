@@ -1,0 +1,47 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+
+.container {
+  display: flex;
+  
+ 
+  align-items: center; 
+  
+  
+  justify-content: space-around; 
+  
+  background-color: #000000; 
+  height: 250px;             
+  padding: 10px;
+  border-radius: 8px;
+}
+
+
+.caixa {
+  background-color: #ff0000;
+  color: white;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+
+.pequena {
+  height: 60px;
+}
+
+.grande {
+  height: 180px;
+}
+
+.media {
+  height: 100px;
+}
