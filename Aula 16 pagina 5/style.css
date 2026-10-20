@@ -1,0 +1,28 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+
+.container {
+  display: flex;
+  justify-content: space-between; 
+  background-color: #0b1f3a;      
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+.caixa {
+  background-color: #ff6b2b;      
+  color: white;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;       
+  align-items: center;           
+  font-weight: bold;
+  border-radius: 6px;
+}
